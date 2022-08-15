@@ -1,0 +1,29 @@
+.skills {
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+        padding: 90px 0;
+        flex-wrap: wrap;
+    }
+    &__item {
+        flex: 1 1 0;
+        min-width: 300px;
+    }
+    &__logo {
+        margin-bottom: 30px;
+    }
+
+    &__title {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+    }
+}

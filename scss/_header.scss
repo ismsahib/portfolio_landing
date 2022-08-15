@@ -1,0 +1,71 @@
+.header {
+    background-color: #F1F1F1;
+    padding-top: 45px;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 76px;
+    }
+
+    &__logo {
+        position: relative;
+        color: black;
+        font-size: 32px;
+        font-weight: 700;
+        padding-right: 12px;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 8px;
+            height: 8px;
+            background-color: #FDA300;
+            border-radius: 50%;
+        }
+    }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 50px;
+    }
+
+    &__item {
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+        &_active {
+            color: #606060;
+        }
+    }
+    &__navbtn {
+        display: none;
+    }
+    &__bot {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 30px;
+    }
+
+    &__text {
+        max-width: 500px;
+        margin-top: 124px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 44px;
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+    }
+}
+
+

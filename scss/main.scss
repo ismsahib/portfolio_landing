@@ -1,0 +1,26 @@
+// обнуляющий стиль
+@import 'resetstyle';
+
+// подключение шрифта Poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+// body
+@import 'body';
+
+// container
+@import 'container';
+
+// header
+@import 'header';
+
+// skills
+@import 'skills';
+
+// portfolio
+@import 'portfolio';
+
+// footer
+@import 'footer';
+
+// медиа стили
+@import 'media';
