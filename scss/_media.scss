@@ -54,4 +54,19 @@
     .container {
         max-width: none;
     }
+    .footer {
+        padding: 60px 0;
+        &__title {
+            margin-bottom: 20px;
+        }
+    
+        &__toptext {
+            margin-bottom: 20px;
+        }
+    
+        &__btn {
+            margin-bottom: 70px;  
+        }
+    
+    }
 }

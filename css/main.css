@@ -240,10 +240,15 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   row-gap: 90px;
+  overflow: hidden;
 }
 
 .portfolio__image {
   margin-bottom: 40px;
+}
+
+.portfolio__image img {
+  max-width: 100%;
 }
 
 .portfolio__link {
@@ -388,5 +393,17 @@ body {
 @media screen and (max-width: 767px) {
   .container {
     max-width: none;
+  }
+  .footer {
+    padding: 60px 0;
+  }
+  .footer__title {
+    margin-bottom: 20px;
+  }
+  .footer__toptext {
+    margin-bottom: 20px;
+  }
+  .footer__btn {
+    margin-bottom: 70px;
   }
 }
